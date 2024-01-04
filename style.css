@@ -38,8 +38,10 @@ select {
 .btn {
     border-radius: 25px;
     background-color: rgb(36, 112, 87);
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline:none;
 }
 
 footer {
