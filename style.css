@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(100, 68, 68);
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border-radius: 5px;
+    width: 260px; /* You can set the desired width in pixels, percentage, etc. */
+    height: 20px;
+    font-size: 18px;
+}
+
+select {
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#notification {
+    background-color: #4CAF50;
+    color: #fff;
+    top: 500px;
+    padding: 15px;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+  }
+
+
+.container {
+    display: grid;
+    place-items: center;
+    gap: 15px;
+}
+
+.btn {
+    border-radius: 25px;
+    background-color: rgb(36, 112, 87);
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Basic styling for the footer */
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
